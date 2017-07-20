@@ -135,7 +135,7 @@ Main 2 end 1f14b386-4e2d-4443-9237-1b735d22ea89
 ```
 
 ## API
-### Respurce - `import Resource from 'shared-resource'`
+### Resource - `import Resource from 'shared-resource'`
 - **static make(...args)** Create a new `Resource` object connected to the pool, providing `args` to its constructor (inherited statically).
 - **static get now** Get the current `Resource` object.
 - **static addTask(promise)** Shortcut to `Resource.now.addTask(promise)`.
